@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1634101835783,
+  "index": "https://oriboharon.github.io/quick-message/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://oriboharon.github.io/quick-message/favicon.ico",
+        "https://oriboharon.github.io/quick-message/index.html",
+        "https://oriboharon.github.io/quick-message/main.372122276387743bb141.js",
+        "https://oriboharon.github.io/quick-message/manifest.webmanifest",
+        "https://oriboharon.github.io/quick-message/polyfills.dc91d1958a79af44a984.js",
+        "https://oriboharon.github.io/quick-message/runtime.3b53b38315c2bd09e27d.js",
+        "https://oriboharon.github.io/quick-message/styles.c0cceed351384ce44c21.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://oriboharon.github.io/quick-message/assets/QuickMessageIcon.png",
+        "https://oriboharon.github.io/quick-message/assets/icons/icon-192x192.png",
+        "https://oriboharon.github.io/quick-message/assets/icons/icon-256x256.png",
+        "https://oriboharon.github.io/quick-message/assets/icons/icon-384x384.png",
+        "https://oriboharon.github.io/quick-message/assets/icons/icon-512x512.png",
+        "https://oriboharon.github.io/quick-message/assets/utils.js",
+        "https://oriboharon.github.io/quick-message/flags.007b2705c0a8f69dfdf6.png",
+        "https://oriboharon.github.io/quick-message/flags@2x.9d5328fb490cddd43f66.png",
+        "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+        "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+        "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+        "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+        "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://oriboharon.github.io/quick-message/assets/QuickMessageIcon.png": "db4eb99a5fd26540ba75f0b59e0dc8adb07c8ffd",
+    "https://oriboharon.github.io/quick-message/assets/icons/icon-192x192.png": "7e7379bdba82937fc3044d6f253330acce44a563",
+    "https://oriboharon.github.io/quick-message/assets/icons/icon-256x256.png": "80c7e13f7eea1fd62f63d6326b7c386e8c6c4e1f",
+    "https://oriboharon.github.io/quick-message/assets/icons/icon-384x384.png": "ed04f64cd27c8a1235721e4bc6608db57ac03109",
+    "https://oriboharon.github.io/quick-message/assets/icons/icon-512x512.png": "31913157cd40fb088e4bb8f04ad3a8aa8c3a0ee2",
+    "https://oriboharon.github.io/quick-message/assets/utils.js": "500ac66a30ccfb092513854d5ea5d02e155b6520",
+    "https://oriboharon.github.io/quick-message/favicon.ico": "db4eb99a5fd26540ba75f0b59e0dc8adb07c8ffd",
+    "https://oriboharon.github.io/quick-message/flags.007b2705c0a8f69dfdf6.png": "21572c9751e5a3dc20395befa0fcb349c32c4811",
+    "https://oriboharon.github.io/quick-message/flags@2x.9d5328fb490cddd43f66.png": "d6f843711c3cfe6d9a037e4c61d293f563e55802",
+    "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg": "de51a8494180a6db074af2dee2383f0a363c5b08",
+    "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf": "44bc1850f570972267b169ae18f1cb06b611ffa2",
+    "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.5be1347c682810f199c7.eot": "86b6f62b7853e67d3e635f6512a5a5efc58ea3c3",
+    "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff": "278e49a86e634da6f2a02f3b47dd9d2a8f26210f",
+    "https://oriboharon.github.io/quick-message/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2": "ca35b697d99cae4d1b60f2d60fcd37771987eb07",
+    "https://oriboharon.github.io/quick-message/index.html": "614fa3217d16cb150e5f8fbce7ac45aeb3e35059",
+    "https://oriboharon.github.io/quick-message/main.372122276387743bb141.js": "36c081edf342a0489d72a3665958a960298478ce",
+    "https://oriboharon.github.io/quick-message/manifest.webmanifest": "1ee2587983db7dc2cc07bb5d3fccad3d737f5b21",
+    "https://oriboharon.github.io/quick-message/polyfills.dc91d1958a79af44a984.js": "d6b8f167fb93d17171833c05e8f938cd6c3c5a1d",
+    "https://oriboharon.github.io/quick-message/runtime.3b53b38315c2bd09e27d.js": "b89b1216b0670ab833a76553e3c7fea6bdec50b7",
+    "https://oriboharon.github.io/quick-message/styles.c0cceed351384ce44c21.css": "70f17dcce104269e36c168864f9cf951fbcef9e7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
