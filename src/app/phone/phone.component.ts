@@ -13,6 +13,7 @@ import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-tel-
 export class PhoneComponent implements AfterViewInit, OnDestroy  {
   @ViewChild('phoneInput') phoneInput !: ElementRef;
   @ViewChild('f') f !: NgForm;
+  @ViewChild('f') formElement !: ElementRef;
 
 
   @ViewChild('phoneNewInput') phoneInputNew!: any 
@@ -33,6 +34,8 @@ export class PhoneComponent implements AfterViewInit, OnDestroy  {
   phoneNumber !: string
 
   ngAfterViewInit(): void {
+    $("input").focus();
+    (this.f.form.controls.phone as any).nativeElement.focus()
     // this.phoneInputNew.customPlaceholder = this.phoneInputNew.selectedCountry.placeHolder
     
     // console.log(this.phoneInputNew.customPlaceholder );

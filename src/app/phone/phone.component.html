@@ -1,21 +1,21 @@
 <!-- <input (input)="onPhoneNumberChanged($event)" #phoneInput type="tel" id="phone"> -->
-<form #f="ngForm" [formGroup]="phoneForm" (ngSubmit)="onSubmit()">
+<form #f="ngForm" [formGroup]="phoneForm" (ngSubmit)="onSubmit()" height="100%" width="100%">
     <ngx-intl-tel-input #phoneNewInput (input)="onPhoneNumberChanged($event)" [cssClass]="'custom'"
         [preferredCountries]="[CountryISO.Israel, CountryISO.UnitedStates]" [enableAutoCountrySelect]="true"
         [enablePlaceholder]="true" [searchCountryFlag]="true"
         [searchCountryField]="[SearchCountryField.Iso2, SearchCountryField.Name]" [selectFirstCountry]="true"
-        maxLength="15" [phoneValidation]="true" [separateDialCode]="true" inputId="1" name="phone"
+        maxLength="20" [phoneValidation]="true" [separateDialCode]="true" inputId="1" name="phone"
         formControlName="phone">
     </ngx-intl-tel-input>
 
     <br>
     <br>
 
-    <button [disabled]="this.f.form.controls.phone.invalid" class="row-md-4 btn btn-success p-2">
+    <button [disabled]="this.f.form.controls.phone.invalid" class="row-md-4 btn btn-primary p-2">
         Go to chat!
     </button>
 
-    <div><strong>Is input valid:</strong>
+    <!-- <div><strong>Is input valid:</strong>
 		<pre>{{ !f.form.controls['phone'].invalid }}</pre>
 	</div>
 	<div><strong>Is input touched:</strong>
@@ -29,5 +29,5 @@
 	</div>
 	<div><strong>Form validation errors:</strong>
 		<pre>{{ f.form.controls['phone'].errors | json }}</pre>
-	</div>
+	</div> -->
 </form>
